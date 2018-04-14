@@ -1,0 +1,16 @@
+<!--index.wxml-->
+
+<view class="container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+  <view class="userinfo">
+    <text class='current-week'>本周值周：{{currentUserNameList[0]}}</text>
+    <text class='next-week'> 下周：{{currentUserNameList[1]}}</text>
+  </view>
+
+   <view class="usermotto">
+  
+    <text class="user-motto"></text>
+    <text class="user-motto"></text>
+  </view> 
+
+</view>
+
